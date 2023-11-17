@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'admin.wsgi.application'
 # DATABASES = {
 #   'default': {
 #     # MySQL engine. Powered by the mysqlclient module.
-#     'ENGINE': 'django.db.backends.mysql',
+#     'ENGINE': 'mysql.connector.django',
 #     'NAME': 'obiemcok_todos',
 #     'USER': 'obiemcok_todosuser',
 #     'PASSWORD': 'todos@2023',
@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'admin.wsgi.application'
 DATABASES = {
   'default': {
     # MySQL engine. Powered by the mysqlclient module.
-    'ENGINE': 'django.db.backends.mysql',
+    'ENGINE': 'mysql.connector.django',
     'NAME': 'todos',
     'USER': 'root',
     'PASSWORD': '',
