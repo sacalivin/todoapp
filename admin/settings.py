@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'admin.wsgi.application'
 #     }
 # }
 
-# For live enviroment
+# For live environment
 DATABASES = {
   'default': {
     # MySQL engine. Powered by the mysqlclient module.
